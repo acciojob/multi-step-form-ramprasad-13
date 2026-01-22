@@ -8,7 +8,7 @@ function Step(props) {
       
       {/* --- Step 1 Content --- */}
       {step === 1 && (
-        <div className="step-content">
+        <div className="step-content" id='step1'>
           <h3>Step 1: Personal Details</h3>
           <div>
             <label>First Name:</label>
@@ -35,7 +35,7 @@ function Step(props) {
 
       {/* --- Step 2 Content --- */}
       {step === 2 && (
-        <div className="step-content">
+        <div className="step-content" id='step2'>
           <h3>Step 2: Car Details</h3>
           <div>
             <label>Car Model:</label>
@@ -62,7 +62,7 @@ function Step(props) {
 
       {/* --- Step 3 Content --- */}
       {step === 3 && (
-        <div className="step-content">
+        <div className="step-content" id='step3'>
           <h3>Step 3: Payment Info</h3>
           <div>
             <label>Card Information:</label>
