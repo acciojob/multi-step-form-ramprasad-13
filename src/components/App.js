@@ -43,7 +43,7 @@ function App() {
   return (
     <div>
       <h1>Multi-Step Form</h1>
-      {/* Pass all necessary data and functions down to the Step component */}
+      {/* Pass all necessary data and functions down to the Step component. */}
       <Step
         step={currentStep}
         formData={formData}
